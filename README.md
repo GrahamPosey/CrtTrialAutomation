@@ -1,1 +1,1 @@
-# CrtTrialAutomation
+# This is a project that automates the setup of a Copado/Salesforce org for Trial Purposes
