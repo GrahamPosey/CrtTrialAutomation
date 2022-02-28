@@ -118,6 +118,7 @@ Create Pipeline and Pipeline Connections
     TypeText          Source Environment          DEV1
     ClickText         DEV1                        2
     #ClickText         Destination Environment
+    ClickText         Destination Environment     2
     TypeText          Destination Environment     INT
     ClickText         INT                        2
     ClickText         Branch
