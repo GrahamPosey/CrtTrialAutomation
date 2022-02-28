@@ -128,7 +128,7 @@ Create Pipeline and Pipeline Connections
     TypeText          Source Environment          DEV2    anchor=Pipeline
     ClickText         DEV2                        2
     #ClickText         Destination Environment     2
-    TypeText          Destination Environment     INT    anchor=Branch
+    TypeText          Destination Environment     INT     2
     ClickText         INT                         2
     #ClickText         Branch                      anchor=Fields
     TypeText          Branch                      dev2    anchor=Fields
@@ -141,7 +141,7 @@ Create Pipeline and Pipeline Connections
     TypeText          Destination Environment     UAT
     ClickText         UAT                      2
     ClickText         Branch
-    TypeText          Branch                      int
+    TypeText          Branch                      int     anchor=Fields
     ClickText         Save                        2
     ClickText         New                        delay=4
     ClickText         Source Environment          2
@@ -151,7 +151,7 @@ Create Pipeline and Pipeline Connections
     TypeText          Destination Environment     PROD
     ClickText         PROD                        2
     ClickText         Branch                      
-    TypeText          Branch                      uat
+    TypeText          Branch                      uat     anchor=Fields
     ClickText         Save                        2
     ClickText         Pipeline Manager            1
 
