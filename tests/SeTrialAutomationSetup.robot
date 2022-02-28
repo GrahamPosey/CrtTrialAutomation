@@ -123,7 +123,7 @@ Create Pipeline and Pipeline Connections
     #ClickText         Branch
     TypeText          Branch                      dev1    anchor=Fields
     ClickText         Save                        2
-    ClickText         New
+    ClickText         New                        delay=4
     ClickText         Source Environment          2
     TypeText          Source Environment          DEV2    anchor=Pipeline
     ClickText         DEV2                        2
@@ -133,7 +133,7 @@ Create Pipeline and Pipeline Connections
     #ClickText         Branch                      anchor=Fields
     TypeText          Branch                      dev2    anchor=Fields
     ClickText         Save                        2
-    ClickText         New
+    ClickText         New                        delay=4
     ClickText         Source Environment          2
     TypeText          Source Environment          INT
     ClickText         INT                        2
@@ -143,7 +143,7 @@ Create Pipeline and Pipeline Connections
     ClickText         Branch
     TypeText          Branch                      int
     ClickText         Save                        2
-    ClickText         New
+    ClickText         New                        delay=4
     ClickText         Source Environment          2
     TypeText          Source Environment          UAT
     ClickText         UAT                        2
