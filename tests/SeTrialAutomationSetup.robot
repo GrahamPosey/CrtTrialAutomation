@@ -116,10 +116,10 @@ Create Pipeline and Pipeline Connections
     ClickText         New
     ClickText         Source Environment          delay=2
     TypeText          Source Environment          DEV1
-    ClickText         DEV1
+    ClickText         DEV1                        2
     ClickText         Destination Environment
     TypeText          Destination Environment     INT
-    ClickText         INT
+    ClickText         INT                        2
     ClickText         Branch
     TypeText          Branch                      dev1
     ClickText         Save                        anchor=SaveEdit
