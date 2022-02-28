@@ -153,6 +153,7 @@ Create Pipeline and Pipeline Connections
     ClickText         Branch
     TypeText          Branch                      uat
     ClickText         Save                        2
+    ClickText         Pipeline Manager            1
 
     
     
