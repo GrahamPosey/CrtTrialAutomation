@@ -118,7 +118,7 @@ Create Pipeline and Pipeline Connections
     TypeText          Source Environment          DEV1    anchor=Pipeline
     ClickText         DEV1                        2
     #ClickText         Destination Environment     2
-    TypeText          Destination Environment     INT     anchor=Branch
+    TypeText          Destination Environment     INT     2
     ClickText         INT                        2
     #ClickText         Branch
     TypeText          Branch                      dev1    anchor=Fields
