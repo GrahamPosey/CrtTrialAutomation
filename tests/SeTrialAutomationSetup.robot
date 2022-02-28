@@ -122,7 +122,7 @@ Create Pipeline and Pipeline Connections
     ClickText         INT                        2
     ClickText         Branch
     TypeText          Branch                      dev1
-    ClickText         Save                        anchor=SaveEdit
+    ClickText         Save                        2
 
     
     
