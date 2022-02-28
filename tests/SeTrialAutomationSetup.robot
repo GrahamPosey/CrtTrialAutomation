@@ -101,7 +101,7 @@ Create Remaining SFDC Snapshots
 Create Pipeline and Pipeline Connections
     ClickText    Pipelines    anchor=Pipeline Manager
     ClickText    New          anchor=Change Owner    delay=2
-    ClickText    Pipeline Name   2
+    ClickText    Pipeline Name   2                   delay=2
     WriteText    ${trialCompany} Trail Pipeline 
     IF    '${platform}' == 'SFDX'
             ClickText    Salesforce       anchor=Platform
