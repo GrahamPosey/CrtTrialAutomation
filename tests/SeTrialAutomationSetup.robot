@@ -127,7 +127,7 @@ Create Pipeline and Pipeline Connections
     ClickText         Source Environment          delay=2
     TypeText          Source Environment          DEV2
     ClickText         DEV2                        2
-    ClickText         Destination Environment
+    ClickText         Destination Environment     delay=2
     TypeText          Destination Environment     INT
     ClickText         INT                        2
     ClickText         Branch
@@ -137,7 +137,7 @@ Create Pipeline and Pipeline Connections
     ClickText         Source Environment          delay=2
     TypeText          Source Environment          INT
     ClickText         INT                        2
-    ClickText         Destination Environment
+    ClickText         Destination Environment     delay=2
     TypeText          Destination Environment     UAT
     ClickText         UAT                      2
     ClickText         Branch
@@ -147,7 +147,7 @@ Create Pipeline and Pipeline Connections
     ClickText         Source Environment          delay=2
     TypeText          Source Environment          UAT
     ClickText         UAT                        2
-    ClickText         Destination Environment
+    ClickText         Destination Environment     delay=2
     TypeText          Destination Environment     PROD
     ClickText         PROD                        2
     ClickText         Branch
