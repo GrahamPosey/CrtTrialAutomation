@@ -114,24 +114,24 @@ Create Pipeline and Pipeline Connections
     ClickText                     Save      2
     ClickText         Pipeline Connections
     ClickText         New
-    ClickText         Source Environment          2
-    TypeText          Source Environment          DEV1
+    #ClickText         Source Environment          2
+    TypeText          Source Environment          DEV1    anchor=Pipeline
     ClickText         DEV1                        2
-    ClickText         Destination Environment     2
-    TypeText          Destination Environment     INT
+    #ClickText         Destination Environment     2
+    TypeText          Destination Environment     INT     anchor=Branch
     ClickText         INT                        2
-    ClickText         Branch
-    TypeText          Branch                      dev1
+    #ClickText         Branch
+    TypeText          Branch                      dev1    anchor=Fields
     ClickText         Save                        2
     ClickText         New
     ClickText         Source Environment          2
-    TypeText          Source Environment          DEV2
+    TypeText          Source Environment          DEV2    anchor=Pipeline
     ClickText         DEV2                        2
     #ClickText         Destination Environment     2
-    TypeText          Destination Environment     2     INT
+    TypeText          Destination Environment     INT    anchor=Branch
     ClickText         INT                         2
-    ClickText         Branch
-    TypeText          Branch                      dev2
+    #ClickText         Branch                      anchor=Fields
+    TypeText          Branch                      dev2    anchor=Fields
     ClickText         Save                        2
     ClickText         New
     ClickText         Source Environment          2
