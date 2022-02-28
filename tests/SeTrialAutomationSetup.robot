@@ -149,7 +149,7 @@ Create Pipeline and Pipeline Connections
     ClickText         UAT                        2
     ClickText         Destination Environment
     TypeText          Destination Environment     PROD
-    ClickText         PRODUpdate                        2
+    ClickText         PROD                        2
     ClickText         Branch
     TypeText          Branch                      uat
     ClickText         Save                        2
