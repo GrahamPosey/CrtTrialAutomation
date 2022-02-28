@@ -9,6 +9,13 @@ Authenticate to Github
 Authenticate to salesforce
     sfdcLogin
 
+Create Sandboxes
+    GoTo                            ${login_url}lightning/setup/DataManagementCreateTestInstance/home
+    ClickText                       New Sandbox
+    TypeText                        Name    NewDev1
+    ClickText                       Next    1
+    ClickText                       Create    anchor=Back     
+
 Create Github Repo
     GoTo                            https://github.com
     ClickText                       New
