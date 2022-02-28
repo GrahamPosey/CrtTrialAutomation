@@ -111,7 +111,7 @@ Create Pipeline and Pipeline Connections
     ClickText             ${trialCompany} Trail Repo    2
     TypeText    Main Branch               main
     ClickCheckbox                 Active    on
-    ClickText                     Save      anchor=Cancel
+    ClickText                     Save      anchor=Save & New
 
     
     
