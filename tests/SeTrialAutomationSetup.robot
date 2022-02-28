@@ -135,20 +135,20 @@ Create Pipeline and Pipeline Connections
     ClickText         Save                        2
     ClickText         New                        delay=4
     ClickText         Source Environment          2
-    TypeText          Source Environment          INT
+    TypeText          Source Environment          INT     2
     ClickText         INT                        2
     ClickText         Destination Environment     2
-    TypeText          Destination Environment     UAT
+    TypeText          Destination Environment     UAT     2
     ClickText         UAT                      2
     ClickText         Branch
     TypeText          Branch                      int     anchor=Fields
     ClickText         Save                        2
     ClickText         New                        delay=4
     ClickText         Source Environment          2
-    TypeText          Source Environment          UAT
+    TypeText          Source Environment          UAT     2
     ClickText         UAT                        2
     ClickText         Destination Environment     2
-    TypeText          Destination Environment     PROD
+    TypeText          Destination Environment     PROD    2
     ClickText         PROD                        2
     ClickText         Branch                      
     TypeText          Branch                      uat     anchor=Fields
