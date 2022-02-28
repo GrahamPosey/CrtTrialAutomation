@@ -112,6 +112,17 @@ Create Pipeline and Pipeline Connections
     TypeText    Main Branch               main
     ClickCheckbox                 Active    on
     ClickText                     Save      2
+    ClickText         Pipeline Connections
+    ClickText         New
+    ClickText         Source Environment          delay=2
+    TypeText          Source Environment          DEV1
+    ClickText         DEV1
+    ClickText         Destination Environment
+    TypeText          Destination Environment     INT
+    ClickText         INT
+    ClickText         Branch
+    TypeText          Branch                      dev1
+    ClickText         Save                        anchor=SaveEdit
 
     
     
