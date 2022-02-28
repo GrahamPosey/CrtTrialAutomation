@@ -37,10 +37,6 @@ Create Git Repo Record and Production Snapshot
     CopyText                //*[@id\="wrap"]
     ${sshKey}=              GetInputValue              //*[@id\="wrap"]
     GoTo                    https://github.com/
-    #ClickText               Sign in
-    #TypeText                Username or email address  ${gitUser}
-    #TypeSecret              Password                   ${gitPassword}
-    #ClickText               Sign in
     ClickItem               @${gitUser}
     ClickText               Settings
     ClickText               SSH and GPG keys
