@@ -153,7 +153,7 @@ Create Pipeline and Pipeline Connections
     ClickText         Branch                      
     TypeText          Branch                      uat     anchor=Fields
     ClickText         Save                        2
-    ClickText         Pipeline Manager            1
+    ClickText         Pipeline Manager            anchor=Pipelines
 
     
     
